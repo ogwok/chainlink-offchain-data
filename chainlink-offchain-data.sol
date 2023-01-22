@@ -27,7 +27,7 @@ contract APIConsumer is ChainlinkClient {
     // Task 2 - jsonparse
     req.add("path", "RAW,ETH,USD,VOLUME24HOUR");
      
-    // Task 3 - multiply
+    // Task 3 - multiply -
     int256 timesAmount = 10 ** 18;
     req.addInt("times", timesAmount);
 
